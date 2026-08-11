@@ -1,0 +1,17 @@
+TIME=51 ns  | RESET                | Q = 00000000 | HEX = 0x00
+TIME=71 ns  | PARALLEL LOAD        | Q = 10101010 | HEX = 0xaa
+
+TIME=91 ns  | SHIFT RIGHT          | Q = 11010101 | HEX = 0xd5
+TIME=111 ns | SHIFT RIGHT          | Q = 11101010 | HEX = 0xea
+TIME=131 ns | SHIFT RIGHT          | Q = 11110101 | HEX = 0xf5
+
+TIME=151 ns | SHIFT LEFT           | Q = 11101010 | HEX = 0xea
+TIME=171 ns | SHIFT LEFT           | Q = 11010100 | HEX = 0xd4
+TIME=191 ns | SHIFT LEFT           | Q = 10101000 | HEX = 0xa8
+
+TIME=211 ns | HOLD                 | Q = 10101000 | HEX = 0xa8
+TIME=231 ns | HOLD                 | Q = 10101000 | HEX = 0xa8
+
+----------------------------------------
+       SIMULATION COMPLETE
+----------------------------------------
